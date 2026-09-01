@@ -37,15 +37,15 @@ logger = logging.getLogger("ForexApp")
 
 OWNER = {
     "name": "BISMARK OSEI OWUSU",
-    "email": "monarchmanaois666777@gmail.com",
+    "email": "monarchmanaois777666@gmail.com",
     "contact": "+233 559512438",
     "role": "Owner / Admin",
 }
 
 # Simple demo credentials (change in production)
-# Username: owner   |  Password: ForexOwner2026!
-OWNER_USERNAME = "owner"
-OWNER_PASSWORD_HASH = hashlib.sha256("ForexOwner2026!".encode()).hexdigest()
+# Username: Monarch Manaois   |  Password: Devil, HellTHELigHT6.
+OWNER_USERNAME = "Monarch Manaois"
+OWNER_PASSWORD_HASH = hashlib.sha256("Devil, HellTHELigHT6.".encode()).hexdigest()
 
 # Invite tokens stored in session (demo only — use a real DB in production)
 if "invite_tokens" not in st.session_state:
