@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: umbrum
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: APP_NAME
+        value: UmBruM
+      - key: APP_URL
+        value: https://your-app.onrender.com
