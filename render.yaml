@@ -12,3 +12,21 @@ services:
         value: UmBruM
       - key: APP_URL
         value: https://your-app.onrender.com
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PRICE_50
+        sync: false
+      - key: STRIPE_PRICE_100
+        sync: false
+      - key: STRIPE_PRICE_200
+        sync: false
+      - key: STRIPE_PRICE_400
+        sync: false
+      - key: OWNER_NAME
+        value: BISMARK OSEI OWUSU
+      - key: OWNER_EMAIL
+        value: monarchmanaois777666@gmail.com
+      - key: OWNER_CONTACT
+        value: "+233 559512438"
+      - key: OWNER_MTN_WALLET
+        value: "+233 559512438"
